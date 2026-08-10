@@ -27,15 +27,4 @@ Technologies Used
 - Audio Processing
 - Cross-Modal Attention
 
-Project Structure
 
-text
-sentiment-analysis-project/
-│
-├── data/
-├── models/
-├── notebooks/
-├── src/
-├── requirements.txt
-├── README.md
-└── .gitignore
