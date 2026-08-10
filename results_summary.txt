@@ -1,0 +1,28 @@
+MSA Results — CREMA-D (wav2vec2 + ResNet50)
+==========================================
+Dataset      : CREMA-D (7442 clips, 91 actors)
+Modalities   : Audio (wav2vec2 768-d) + Video (ResNet50 512-d)
+Architecture : TwoModalCoAttention x2 + Gating + Transformer
+Split        : Actor-based 70/15/15
+
+6-CLASS EMOTION RESULTS
+  Accuracy     : 0.4551
+  Macro F1     : 0.4568
+  Weighted F1  : 0.4573
+  Precision    : 0.5044
+  Recall       : 0.4551
+  ROC AUC      : 0.8208
+  Cohen Kappa  : 0.3451
+  MCC          : 0.3517
+
+3-CLASS SENTIMENT RESULTS
+  Accuracy     : 0.6914
+  Macro F1     : 0.5533
+
+AUC per emotion:
+  ANG : 0.9297
+  DIS : 0.7236
+  FEA : 0.7916
+  SAD : 0.8547
+  NEU : 0.8217
+  HAP : 0.8033
